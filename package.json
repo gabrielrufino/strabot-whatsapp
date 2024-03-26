@@ -27,5 +27,8 @@
       "type": "github",
       "url": "https://github.com/sponsors/gabrielrufino"
     }
-  ]
+  ],
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0"
+  }
 }
