@@ -1,7 +1,6 @@
 {
-  "name": "@gabrielrufino/node-template",
+  "name": "@strabot/whatsapp",
   "version": "1.0.0",
-  "description": "An incredible project made in Node.js",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -27,5 +26,8 @@
       "type": "github",
       "url": "https://github.com/sponsors/gabrielrufino"
     }
-  ]
+  ],
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0"
+  }
 }
