@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "reinstall": "rimraf node_modules && npm ci",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "test:cov": "npm test -- --coverage",
     "test:watch": "npm test -- --watch"
@@ -18,8 +17,7 @@
     "@gabrielrufino/eslint-config": "^1.6.0",
     "eslint": "^8.57.0",
     "eslint-plugin-jest": "^27.9.0",
-    "jest": "^29.7.0",
-    "rimraf": "^5.0.10"
+    "jest": "^29.7.0"
   },
   "funding": [
     {
