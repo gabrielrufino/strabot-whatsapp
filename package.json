@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
+    "start": "node -r dotenv/config .",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "test:cov": "npm test -- --coverage",
     "test:watch": "npm test -- --watch"
@@ -26,6 +27,7 @@
     }
   ],
   "dependencies": {
+    "dotenv": "^16.4.5",
     "whatsapp-web.js": "^1.25.0"
   }
 }
