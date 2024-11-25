@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gabrielrufino/node-ci@v3
-      - uses: gabrielrufino/dockerfile-ci@v2
+      - uses: actalog/node-ci@v3
+      - uses: actalog/dockerfile-ci@v2
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.sha }}
